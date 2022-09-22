@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#exp1{
+    margin: 20px auto;
+    height: 400px;
+    width: 600px;
+    box-shadow: rgba(100, 100, 111, 0.884) 0px 7px 29px 0px;
+    background-image: url("https://source.unsplash.com/random"), url("./OIP.jpg");
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+}
+
+.bai6, .row{
+    width: 100%;
+}
+.row::before, .row::after{
+    display: table;
+    content: "";
+}
+.row::after{
+    clear: both;
+}
+.col1,.col2, .col3{
+    float: left;
+    width: 29.3333%;
+    margin: 1%;
+    text-align: justify ;
+    padding: 1%;
+}

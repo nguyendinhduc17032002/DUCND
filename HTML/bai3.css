@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+input,
+button,
+select,
+textarea {
+  font: inherit;
+}
+img,
+picture {
+  display: block;
+  max-width: 100%;
+}
+/* remove animation for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+table {
+  width: 50%;
+}
+table,
+th,
+td {
+  border: 2px solid #fff;
+}
+
+#bang1 th,
+#bang2 th,
+#bang2 tr:last-child,
+#bang1 tr:last-child {
+  background-color: rgb(212, 212, 212);
+}
+#bang2,
+#bang3 {
+  margin-top: 100px;
+}
+
+#bang3 {
+    border-spacing: 0;
+}
+
+#bang3 th,
+#bang3 td {
+  border: 0.1px solid rgb(175, 68, 68);
+}
+#bang3 th{
+    background-color: rgb(175, 68, 68);
+    color: #fff;
+}
+#bang3 tr:nth-child(odd) {
+  background-color: rgb(212, 212, 212);
+}
+#bang3 td:nth-child(even){
+    text-align: right;
+}

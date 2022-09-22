@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ex{
+    margin: 50px auto;
+    max-width: 800px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 25px;
+    text-align: justify;
+}
+.text{
+    border-color:  #85c226 #F7c200 #4493a0 #df127b;
+}
+.exa .text{
+    border-style: solid;
+    border-width: 15px;
+    padding: 25px;
+}
+.exb .text{
+    border-style: solid dotted groove double;
+    border-width: 15px;
+    padding: 25px;
+}
+.exc .text{
+    border-style: solid;
+    border-width: 5px 10px 15px 20px;
+    padding: 25px;
+}
+.exd .text{
+    border-style: solid;
+    border-width: 15px;
+    padding: 25px;
+    border-radius: 0 30px 70px 20px;
+}
+.adv{
+    padding: 25px 0px;
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+    width: 250px;
+    text-align: center;
+}
+.adv-hemisphere{
+    border-width: 4px 30px 4px 30px;
+    border-style: groove ridge dashed;
+    border-color: #00cc7e;
+    border-radius: 100px 100px 0 0;
+    
+}
+.adv-rectanglee{
+    border-width: 0px 12px 0px 12px;
+    border-style: double;
+    border-color: violet; 
+    border-radius: 40px 40px 60px 60px;
+}
+.adv-round{
+    border-radius: 20px;
+    border-color:#F7c200;
+    border-style:solid;
+}
+.adv-bullet{
+    border-radius: 20px 100px 100px 20px;
+    border-color: #F7c200;
+    border-style: solid;
+}
+.adv-leaf{
+    background: #00cc7e;
+    border-width: 4px 30px 4px 30px;
+    border-style: solid;
+    border-color: #df127b #df127b #4493a0 #4493a0;
+    border-radius: 0 120px 0 120px;
+}
+.btn{
+    display: inline-block;
+    position: relative;
+    
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btn button{
+    background-color: #00cc7e;
+    border-style: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 15px;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 6px;
+}
